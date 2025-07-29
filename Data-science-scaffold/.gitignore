@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dll
+*.dylib
+*.egg-info/
+.eggs/
+.cache/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data (laisser les petits fichiers utiles au cours)
+data/raw/**
+!data/README.md
+!data/*.csv
+!data/*.xlsx
+!data/*.json
+
+# Reports lourds
+reports/*.zip
+reports/*.tar
+reports/*.7z
